@@ -1,0 +1,127 @@
+// body{
+//     background-image: url('../public/rgb.jpg');
+// }
+
+//fonts
+@font-face {
+    font-family: "iranYekanLight";
+    src: url("../fonts/iranyekanweblight.woff2");
+}
+
+@font-face {
+    font-family: "iranYekanBold";
+    src: url("../fonts/iranyekanwebbold.woff2");
+}
+@font-face {
+    font-family: "iransanse";
+    src: url("../fonts/IRANSansWeb.woff2");
+}
+
+//admin panel
+
+.sideBar {
+    font-family: "iransanse";
+    background-color: #222d32;
+    color: #354558;
+    padding: 0px;
+    min-height: 713px; 
+    width: 300px;
+    z-index: 1;
+
+
+    .headerSide {
+        padding-top: 20px;
+        text-align: center;
+        img {
+            width: 40%;
+        }
+    }
+    .title {
+        padding: 15px 0px;
+        margin-right: 17px;
+        font-size: 17px;
+    }
+    
+    h2 {
+        button {
+            background-color: transparent;
+            border: none;
+            width: 100%;
+            text-align: right;
+            font-size: 15px;
+            color: #cfcfcf;
+            padding: 15px 0px;
+            &:hover {
+                color: #fff;
+                background-color: #1e282c;
+            }
+            span {
+                margin-left: 10px;
+                font-size: 20px !important;
+            }
+        }
+    }
+    p {
+        cursor: pointer;
+        margin-right: 30px;
+    }
+    .chosen {
+        background-color: #1e282c;
+        border-left: solid 3px #3c8dbc;
+        div {
+            color: #fff !important;
+        }
+    }
+    .exit {
+        color: #cfcfcf;
+        &:hover {
+            color: #fff;
+            background-color: #1e282c;
+        }
+        span {
+            margin-left: 10px;
+            font-size: 20px !important;
+        }
+        button {
+            background-color: transparent;
+            border: none;
+            width: 100%;
+            text-align: right;
+            font-size: 15px;
+            color: #cfcfcf;
+            padding: 15px 0px;
+        }
+    }
+}
+.content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    .sectionHeader {
+        background-color: #fff;
+        padding: 8px;
+        box-shadow: 1px 0 5px rgb(0 0 0 / 5%);
+        span{
+            color: #354558;
+            p{
+                display: inline-block;
+                font-size: 11px;
+                font-weight: bold;
+                margin-right: 10px;
+                text-align: center;
+            }
+        }
+        img{
+            width: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    }
+    .sectionMain {
+        padding: 15px;
+        .titelCharts{
+       
+        }
+    }
+}

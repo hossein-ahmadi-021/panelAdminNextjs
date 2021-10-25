@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "iranYekanLight";
+  src: url("../fonts/iranyekanweblight.woff2");
+}
+@font-face {
+  font-family: "iranYekanBold";
+  src: url("../fonts/iranyekanwebbold.woff2");
+}
+@font-face {
+  font-family: "iransanse";
+  src: url("../fonts/IRANSansWeb.woff2");
+}
+.form {
+  font-family: "iranYekanLight";
+  max-width: 600px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 80px 70px 70px;
+  border-radius: 45px;
+}
+.form .formHeader .title {
+  font-weight: bold;
+  font-size: 50px;
+}
+.form .formHeader .buttonGroup :first-child {
+  border-radius: 0 45px 45px 0;
+}
+.form .formHeader .buttonGroup :last-child {
+  border-radius: 45px 0 0 45px;
+}
+.form .formHeader .buttonGroup a {
+  padding: 10px 30px;
+  display: inline-block;
+  background-color: #e9b102;
+  color: #ffffff;
+  font-size: 15px;
+  margin-left: 2px;
+  border: none;
+  text-decoration: none;
+}
+.form .formHeader .buttonGroup a:hover {
+  background-color: #d2a41d;
+  transition: 0.5s;
+}
+.form .formMain p {
+  font-size: 20px;
+}
+.form .formMain form .subInput {
+  width: 100%;
+  min-height: 50px;
+  box-shadow: none;
+  border: 0;
+  padding: 10px 15px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.form .formMain form .subChek {
+  width: 16px;
+  height: 16px;
+  top: 4px;
+  border: 1px solid;
+  border-color: #484848;
+  border-radius: 2px;
+  background-color: transparent;
+}
+.form .formMain form label {
+  padding-right: 15px;
+  color: #484848;
+  margin-bottom: 0;
+  font-size: 15px;
+  position: relative;
+}
+.form .formMain form button {
+  background-color: #ecb719;
+  border: none;
+  padding: 13px 36px;
+  color: #fff;
+  border-radius: 5px;
+}
+.form .formMain form button:hover {
+  background-color: #f3bd1a;
+  transition: 1s;
+}
+.form .formMain h3 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  color: #646464;
+  display: block;
+  position: relative;
+}
+.form .formMain h3:before {
+  content: "";
+  width: 28%;
+  height: 1px;
+  background-color: #646464;
+  display: inline-block;
+  top: 50%;
+  left: 60%;
+  position: absolute;
+}
+.form .formMain h3:after {
+  content: "";
+  width: 28%;
+  height: 1px;
+  background-color: #646464;
+  display: inline-block;
+  top: 50%;
+  right: 60%;
+  position: absolute;
+}
+.form .formMain .iconBox {
+  text-align: center;
+}
+
+.panel {
+  font-family: "iransanse";
+}
+.panel .sideBar {
+  background-color: #242d3e;
+  color: #354558;
+}
+.panel .sideBar .collTitle button {
+  background-color: #242d3e;
+  border: none;
+  color: #354558;
+}
+.panel .sideBar .collTitle button:hover {
+  color: #fff;
+}
+.panel .sideBar .collTitle .active {
+  color: #fff;
+}
+.panel .sideBar .collTitle .sex {
+  color: red;
+}
+.panel .content {
+  margin: 0;
+  padding: 0;
+}
+.panel .content .sectionHeader {
+  background-color: #fff;
+}
+.panel .content .sectionMain {
+  background-color: green;
+}

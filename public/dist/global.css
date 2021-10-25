@@ -1,0 +1,9 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+body #__next {
+  background-image: url("../images/work.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
